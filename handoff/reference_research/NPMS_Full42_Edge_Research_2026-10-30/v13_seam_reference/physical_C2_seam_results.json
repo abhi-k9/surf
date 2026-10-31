@@ -1,0 +1,14 @@
+{
+  "fan5": {
+    "radial_edges": 5,
+    "families_per_edge": 4,
+    "scalar_exact_value_normal_1_2_tests": 1200,
+    "verified_C2": true
+  },
+  "fan9": {
+    "radial_edges": 9,
+    "families_per_edge": 4,
+    "scalar_exact_value_normal_1_2_tests": 2160,
+    "verified_C2": true
+  }
+}

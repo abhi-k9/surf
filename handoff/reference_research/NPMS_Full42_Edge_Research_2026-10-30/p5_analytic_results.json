@@ -1,0 +1,93 @@
+{
+  "space": "Authentic 42D local Davydov\u2013Yeo quintic PS12 element",
+  "tested_monomials": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      5,
+      0
+    ]
+  ],
+  "monomials_count": 21,
+  "exact_P5_reproduction": true,
+  "max_degree": 5,
+  "global_scope": "Local polynomial reproduction; global reproduction follows when physical Hermite data are assembled consistently. This is not reproduction by restricted positive geometric controls alone."
+}

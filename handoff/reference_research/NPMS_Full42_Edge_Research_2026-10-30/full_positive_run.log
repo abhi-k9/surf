@@ -1,0 +1,45 @@
+START 5
+BUILD exact D-Y jets fan5
+matrix 5 0
+matrix 5 1
+matrix 5 2
+matrix 5 3
+matrix 5 4
+verified exact complete affine Hermite decomposition 5
+global moments exact
+ cert 0 min 1/96 macro sectors [0, 1, 2, 3, 4]
+ cert 1 min 0 macro sectors [0, 1, 3, 4]
+ cert 2 min 0 macro sectors [0, 1, 2, 4]
+ cert 3 min 0 macro sectors [0, 1, 2, 3]
+ cert 4 min 0 macro sectors [1, 2, 3, 4]
+ cert 5 min 0 macro sectors [0, 2, 3, 4]
+PASS fan5 basis 18 cond 73.35290830762213
+FULL missing directional modes 82
+RESULT 5 full 100 group_max 14 minbeta 43/4224 cond 16612.696462991746
+START 9
+BUILD exact D-Y jets fan9
+matrix 9 0
+matrix 9 1
+matrix 9 2
+matrix 9 3
+matrix 9 4
+matrix 9 5
+matrix 9 6
+matrix 9 7
+matrix 9 8
+verified exact complete affine Hermite decomposition 9
+global moments exact
+ cert 0 min 19/1920 macro sectors [0, 1, 2, 3, 4, 5, 6, 7, 8]
+ cert 1 min 0 macro sectors [0, 1, 7, 8]
+ cert 2 min 0 macro sectors [0, 1, 2, 8]
+ cert 3 min 0 macro sectors [0, 1, 2, 3]
+ cert 4 min 0 macro sectors [1, 2, 3, 4]
+ cert 5 min 0 macro sectors [2, 3, 4, 5]
+ cert 6 min 0 macro sectors [3, 4, 5, 6]
+ cert 7 min 0 macro sectors [4, 5, 6, 7]
+ cert 8 min 0 macro sectors [5, 6, 7, 8]
+ cert 9 min 0 macro sectors [0, 6, 7, 8]
+PASS fan9 basis 30 cond 42.42751456428904
+FULL missing directional modes 142
+RESULT 9 full 172 group_max 15 minbeta 1123/108000 cond 23846.015063548042
+PASS exact full-DY positive normalized bases on both restricted fans

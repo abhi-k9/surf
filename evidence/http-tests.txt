@@ -1,0 +1,1 @@
+PASS HTTP: valid geometry, same-origin/Host restriction, path allowlist, content type, malformed data, invalid weights, recovery

@@ -1,0 +1,11 @@
+# Dependencies and trust boundaries
+
+The authored evaluator, CLI, minimal JSON/SHA-256 helpers, UI and bridge contain no downloaded or vendored runtime library. The core builds offline with the C++20 standard library. The viewer uses Python's standard library and browser WebGL 2, maintained by their platform vendors. No CDN, package manager or network fetch runs at application startup. No external JavaScript is loaded.
+
+Python/NumPy is an optional independent test dependency (NumPy is BSD-3-Clause); Linux CI specifies NumPy 2.2.6. Playwright (Apache-2.0) and Chromium (BSD and bundled component licenses) are optional local screenshot/test tools and are not distributed here. CMake 3.31.6 (BSD-3-Clause) and clang-format 19.1.7 (Apache-2.0 with LLVM exceptions) were installed as build/format tools in `.tools/`, which is excluded from the delivery. No downloaded install script was executed; normal TLS/package validation remained enabled. Actions checkout is pinned to its v4.2.2 commit.
+
+The provided research has its original provenance and any original terms; this delivery assigns it no new license. Consult its authors before broader redistribution or reuse where licensing is unclear. Historical `.pkl` files are retained only to preserve the original handoff. Nothing in this implementation imports them, unpickles them, or executes legacy symbolic scripts during normal build/test/runtime.
+
+Fixture hashes are hardcoded to the two supplied binaries. Exact size/count validation precedes bounded allocation, followed by SHA-256 verification, explicit little-endian decoding, finite checks, parent index bounds and nondegenerate triangle checks. JSON has 2 MiB input, 32-level nesting and per-array count limits, rejects duplicate keys/nonfinite values/invalid escapes, and validates scene dimensions. Scene paths are never executed or opened by the worker.
+
+The bridge binds only IPv4 loopback, restricts Host/Origin, serves only three named UI assets and two API endpoints, requires JSON on POST, bounds request size, sets socket timeouts and a restrictive CSP, and invokes workers with an argument list without a shell. It is a local development bridge, not an authenticated multiuser/public HTTP service. Do not expose its port publicly. Resource exhaustion by a local process is not a fully isolated security boundary.

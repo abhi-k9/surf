@@ -1,0 +1,23 @@
+name: NPMS core
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  core:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - run: cmake --preset release
+      - run: cmake --build --preset release --parallel 2
+      - run: ctest --preset release
+  sanitizer-and-oracle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - run: python3 -m pip install numpy==2.2.6
+      - run: cmake --preset sanitize
+      - run: cmake --build --preset sanitize --parallel 2
+      - run: ctest --preset sanitize

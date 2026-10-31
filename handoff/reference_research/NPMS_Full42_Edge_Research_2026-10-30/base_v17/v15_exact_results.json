@@ -1,0 +1,123 @@
+{
+  "certification": "Exact rational coefficient-level verification of a restricted v1.5 split",
+  "local_reference": {
+    "degree": 5,
+    "PS12_cells": 12,
+    "local_dy_constraints": 300,
+    "zero_two_jet_boundary_constraints": 90,
+    "combined_constraints": 390,
+    "Bernstein_nonnegative": true,
+    "radial_edge_third_normal_midpoint_values": [
+      "0",
+      "0"
+    ],
+    "original_macro_vertex_third_jets_zero": true
+  },
+  "spatial_red_refinement": {
+    "subdivision": "1 macro triangle -> 4 red children; positive controls only on 2 boundary-adjacent children",
+    "two_boundary_children": {
+      "boundary_left": {
+        "fine_microtriangles": 12,
+        "verified_Bernstein_inequalities": 252,
+        "certified_maximum_Bernstein_epsilon": "1/32",
+        "child_barycenter_value": "1",
+        "nonnegative_at_maximum": true,
+        "containing_parent_microtriangles": [
+          3,
+          3,
+          2,
+          3,
+          2,
+          2,
+          3,
+          3,
+          2,
+          3,
+          2,
+          2
+        ]
+      },
+      "boundary_right": {
+        "fine_microtriangles": 12,
+        "verified_Bernstein_inequalities": 252,
+        "certified_maximum_Bernstein_epsilon": "1/32",
+        "child_barycenter_value": "1",
+        "nonnegative_at_maximum": true,
+        "containing_parent_microtriangles": [
+          4,
+          4,
+          5,
+          5,
+          4,
+          5,
+          4,
+          4,
+          5,
+          5,
+          4,
+          5
+        ]
+      }
+    },
+    "common_exact_relative_epsilon": "1/32",
+    "simultaneous_nonnegative_split": true,
+    "exact_parent_sum_identity": true,
+    "positive_transfer_matrix": [
+      [
+        "1"
+      ],
+      [
+        "1"
+      ],
+      [
+        "1"
+      ]
+    ],
+    "independence": "parent remainder nonzero on central red child; left/right positive on disjoint interiors"
+  },
+  "fan_certificates": {
+    "fan5": {
+      "coarse_functions": 8,
+      "first_refined_functions": 18,
+      "Bernstein_lower_bound_for_three_affine_functions": "1/6",
+      "three_affine_basis_functions_have_full_fan_support": true,
+      "bubble_parent_and_children_one_macro_support": true,
+      "affine_precision_and_partition_of_unity_preserved_by_child_split": "exact symbolic identity; children inherit parent parameter site",
+      "positive_rational_homogeneous_transfer": "T consists of zero/one entries",
+      "hierarchy_basis_counts": [
+        8,
+        18,
+        38,
+        78
+      ]
+    },
+    "fan9": {
+      "coarse_functions": 12,
+      "first_refined_functions": 30,
+      "Bernstein_lower_bound_for_three_affine_functions": "17/120",
+      "three_affine_basis_functions_have_full_fan_support": true,
+      "bubble_parent_and_children_one_macro_support": true,
+      "affine_precision_and_partition_of_unity_preserved_by_child_split": "exact symbolic identity; children inherit parent parameter site",
+      "positive_rational_homogeneous_transfer": "T consists of zero/one entries",
+      "hierarchy_basis_counts": [
+        12,
+        30,
+        66,
+        138
+      ]
+    }
+  },
+  "stability_obstruction": {
+    "new_child_Linf_upper_bound_at_depth_l": "(1/5)*(1/32)^l, for l>=1",
+    "supnorm_lower_coefficient_stability_cannot_be_level_independent": true,
+    "conditioning": "no bound for a support-scaled and normalized dual has been established"
+  },
+  "limitations": [
+    "not a full direct normalized local basis",
+    "global affine reservoir still full fan",
+    "new children inherit parent site for affine reproduction",
+    "no all-interior-child subdivision",
+    "no uniform coefficient stability",
+    "Speleers basis coefficients not extracted"
+  ]
+}

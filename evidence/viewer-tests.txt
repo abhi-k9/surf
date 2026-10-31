@@ -1,0 +1,1 @@
+PASS both fans: edit XYZ and weights, group edit, undo/redo, save/reload, OBJ, orbit/zoom/picking smoke, influence, valid/invalid curvature; 10 screenshots

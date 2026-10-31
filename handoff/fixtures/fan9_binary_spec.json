@@ -1,0 +1,79 @@
+{
+  "schema": "npms-fixed-fan-binary-v1",
+  "magic_ascii": "NPMSFAN1",
+  "endian": "little",
+  "float": "IEEE754 binary64",
+  "uint": "uint32",
+  "header": "8-byte magic then eight little-endian uint32 values in order version,degree,valence,macro_count,microcells_per_macro,bernstein_coefficients_per_cell,fine_count,coarse_count",
+  "header_size": 40,
+  "arrays_in_exact_order": [
+    {
+      "name": "macro_vertices_xy",
+      "type": "float64",
+      "shape": [
+        9,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "microtri_vertices_xy",
+      "type": "float64",
+      "shape": [
+        9,
+        12,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "fine_sites_uv",
+      "type": "float64",
+      "shape": [
+        172,
+        2
+      ]
+    },
+    {
+      "name": "fine_parent_index",
+      "type": "uint32",
+      "shape": [
+        172
+      ]
+    },
+    {
+      "name": "fine_coefficients",
+      "type": "float64",
+      "shape": [
+        172,
+        9,
+        12,
+        21
+      ]
+    },
+    {
+      "name": "coarse_sites_uv",
+      "type": "float64",
+      "shape": [
+        30,
+        2
+      ]
+    },
+    {
+      "name": "coarse_coefficients",
+      "type": "float64",
+      "shape": [
+        30,
+        9,
+        12,
+        21
+      ]
+    }
+  ],
+  "coefficient_order": "ijk enumerated in fan{n}_schema.json: i=0..5, j=0..5-i, k=5-i-j",
+  "float64_fixture_precision": "Generated from certified exact rational construction but truncated to double. Runtime checks should use numerical tolerances; original research handles exact proofs.",
+  "file_size_bytes": 3674664,
+  "sha256": "a3db27d57bff39c4a2e49c268eb50ca91981bc1b4c6247876d3b444a38faad18",
+  "coarse_transfer": "Fine parent_index copies old control homogeneous (wP,w); coarse[pid]=sum fine coefficients of that pid at identical parametric microcell.",
+  "restrictions": "Only original fixed valence-5/9 fan geometries, no generalized arbitrary-topology support."
+}

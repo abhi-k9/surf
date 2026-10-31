@@ -1,0 +1,9 @@
+{
+  "exact_fixed_patch_lower_bound": "2154636280112944149852832120012435275/57028248035493506784145691689562656768",
+  "decimal": 0.0377819125492323,
+  "patch_basis_size": 7,
+  "affine_copy_bound_independent_of_scale": true,
+  "disjoint_patch_block_supnorm_lower_bound": "2154636280112944149852832120012435275/57028248035493506784145691689562656768",
+  "simple_upper_bound_for_disjoint_7function_blocks": 7,
+  "scope": "Nonoverlapping affine copies of this reference patch only. NO theorem for overlapping hierarchical bases or full global geometric basis."
+}

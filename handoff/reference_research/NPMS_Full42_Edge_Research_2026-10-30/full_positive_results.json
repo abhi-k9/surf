@@ -1,0 +1,2498 @@
+{
+  "fan5": {
+    "n": 5,
+    "original_positive_basis": 18,
+    "added_independent_dy_nodal_modes": 82,
+    "new_full_positive_basis_count": 100,
+    "global_full_DY_dimension": 100,
+    "exact_positive_Bernstein": true,
+    "exact_partition_unity": true,
+    "affine_precision_preserved_from_parent_sites": true,
+    "full_global_DY_rank_by_invertible_nodal_coordinate_change": 100,
+    "full_P5_reproduction_by_spline_span": true,
+    "negative_Bernstein_coefficients": 0,
+    "outer_support_at_most_sectors": 4,
+    "center_natural_star_sectors": 5,
+    "min_parent_mode_dominance_ratio": "3209/24000",
+    "min_perturbation_beta": "43/4224",
+    "max_modes_from_any_parent": 14,
+    "sampled_column_scaled_Bernstein_condition": 16612.696462991746,
+    "sampled_numerical_rank": 100,
+    "modes": [
+      {
+        "mode": [
+          "center_vertex",
+          3
+        ],
+        "parent": 1,
+        "dominance_ratio": "143/120",
+        "perturbation_beta": "143/1200",
+        "sibling_count": 6
+      },
+      {
+        "mode": [
+          "center_vertex",
+          5
+        ],
+        "parent": 1,
+        "dominance_ratio": "53/40",
+        "perturbation_beta": "53/400",
+        "sibling_count": 6
+      },
+      {
+        "mode": [
+          "center_vertex",
+          6
+        ],
+        "parent": 1,
+        "dominance_ratio": "143/16",
+        "perturbation_beta": "143/160",
+        "sibling_count": 6
+      },
+      {
+        "mode": [
+          "center_vertex",
+          7
+        ],
+        "parent": 1,
+        "dominance_ratio": "10323/1400",
+        "perturbation_beta": "10323/14000",
+        "sibling_count": 6
+      },
+      {
+        "mode": [
+          "center_vertex",
+          9
+        ],
+        "parent": 1,
+        "dominance_ratio": "157/16",
+        "perturbation_beta": "157/160",
+        "sibling_count": 6
+      },
+      {
+        "mode": [
+          "center_vertex",
+          4
+        ],
+        "parent": 2,
+        "dominance_ratio": "2769/2632",
+        "perturbation_beta": "2769/10528",
+        "sibling_count": 3
+      },
+      {
+        "mode": [
+          "center_vertex",
+          8
+        ],
+        "parent": 2,
+        "dominance_ratio": "201/28",
+        "perturbation_beta": "201/112",
+        "sibling_count": 3
+      },
+      {
+        "mode": [
+          "outer_edge",
+          0,
+          0
+        ],
+        "parent": 4,
+        "dominance_ratio": "69521/65472",
+        "perturbation_beta": "69521/523776",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "outer_edge",
+          0,
+          1
+        ],
+        "parent": 4,
+        "dominance_ratio": "1808261/113280",
+        "perturbation_beta": "1808261/906240",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "outer_edge",
+          0,
+          2
+        ],
+        "parent": 4,
+        "dominance_ratio": "4129/16",
+        "perturbation_beta": "4129/128",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "outer_edge",
+          0,
+          3
+        ],
+        "parent": 4,
+        "dominance_ratio": "258323/512",
+        "perturbation_beta": "258323/4096",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          0,
+          3
+        ],
+        "parent": 5,
+        "dominance_ratio": "145/132",
+        "perturbation_beta": "145/2904",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          0,
+          4
+        ],
+        "parent": 5,
+        "dominance_ratio": "65/88",
+        "perturbation_beta": "65/1936",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          0,
+          5
+        ],
+        "parent": 5,
+        "dominance_ratio": "31/40",
+        "perturbation_beta": "31/880",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          0,
+          6
+        ],
+        "parent": 5,
+        "dominance_ratio": "145/16",
+        "perturbation_beta": "145/352",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          0,
+          7
+        ],
+        "parent": 5,
+        "dominance_ratio": "65/16",
+        "perturbation_beta": "65/352",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          0,
+          8
+        ],
+        "parent": 5,
+        "dominance_ratio": "65/16",
+        "perturbation_beta": "65/352",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          0,
+          9
+        ],
+        "parent": 5,
+        "dominance_ratio": "93/16",
+        "perturbation_beta": "93/352",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "radial_edge",
+          0,
+          0
+        ],
+        "parent": 5,
+        "dominance_ratio": "43/192",
+        "perturbation_beta": "43/4224",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "radial_edge",
+          0,
+          1
+        ],
+        "parent": 5,
+        "dominance_ratio": "43/24",
+        "perturbation_beta": "43/528",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "radial_edge",
+          0,
+          2
+        ],
+        "parent": 5,
+        "dominance_ratio": "43/4",
+        "perturbation_beta": "43/88",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "radial_edge",
+          0,
+          3
+        ],
+        "parent": 5,
+        "dominance_ratio": "79",
+        "perturbation_beta": "79/22",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          1,
+          8
+        ],
+        "parent": 6,
+        "dominance_ratio": "891/140",
+        "perturbation_beta": "891/280",
+        "sibling_count": 2
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          1,
+          3
+        ],
+        "parent": 8,
+        "dominance_ratio": "41/48",
+        "perturbation_beta": "41/1344",
+        "sibling_count": 15
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          1,
+          4
+        ],
+        "parent": 8,
+        "dominance_ratio": "3289/4832",
+        "perturbation_beta": "3289/135296",
+        "sibling_count": 15
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          1,
+          5
+        ],
+        "parent": 8,
+        "dominance_ratio": "175/132",
+        "perturbation_beta": "25/528",
+        "sibling_count": 15
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          1,
+          6
+        ],
+        "parent": 8,
+        "dominance_ratio": "123/20",
+        "perturbation_beta": "123/560",
+        "sibling_count": 15
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          1,
+          7
+        ],
+        "parent": 8,
+        "dominance_ratio": "771/200",
+        "perturbation_beta": "771/5600",
+        "sibling_count": 15
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          1,
+          9
+        ],
+        "parent": 8,
+        "dominance_ratio": "175/16",
+        "perturbation_beta": "25/64",
+        "sibling_count": 15
+      },
+      {
+        "mode": [
+          "radial_edge",
+          1,
+          0
+        ],
+        "parent": 8,
+        "dominance_ratio": "429/1024",
+        "perturbation_beta": "429/28672",
+        "sibling_count": 15
+      },
+      {
+        "mode": [
+          "radial_edge",
+          1,
+          1
+        ],
+        "parent": 8,
+        "dominance_ratio": "1165273/138240",
+        "perturbation_beta": "1165273/3870720",
+        "sibling_count": 15
+      },
+      {
+        "mode": [
+          "radial_edge",
+          1,
+          2
+        ],
+        "parent": 8,
+        "dominance_ratio": "29601/512",
+        "perturbation_beta": "29601/14336",
+        "sibling_count": 15
+      },
+      {
+        "mode": [
+          "radial_edge",
+          1,
+          3
+        ],
+        "parent": 8,
+        "dominance_ratio": "1165273/4096",
+        "perturbation_beta": "1165273/114688",
+        "sibling_count": 15
+      },
+      {
+        "mode": [
+          "outer_edge",
+          1,
+          0
+        ],
+        "parent": 8,
+        "dominance_ratio": "77/96",
+        "perturbation_beta": "11/384",
+        "sibling_count": 15
+      },
+      {
+        "mode": [
+          "outer_edge",
+          1,
+          1
+        ],
+        "parent": 8,
+        "dominance_ratio": "847111/88500",
+        "perturbation_beta": "847111/2478000",
+        "sibling_count": 15
+      },
+      {
+        "mode": [
+          "outer_edge",
+          1,
+          2
+        ],
+        "parent": 8,
+        "dominance_ratio": "7929/50",
+        "perturbation_beta": "7929/1400",
+        "sibling_count": 15
+      },
+      {
+        "mode": [
+          "outer_edge",
+          1,
+          3
+        ],
+        "parent": 8,
+        "dominance_ratio": "847111/3500",
+        "perturbation_beta": "847111/98000",
+        "sibling_count": 15
+      },
+      {
+        "mode": [
+          "outer_edge",
+          2,
+          0
+        ],
+        "parent": 9,
+        "dominance_ratio": "8499/5344",
+        "perturbation_beta": "8499/42752",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "outer_edge",
+          2,
+          1
+        ],
+        "parent": 9,
+        "dominance_ratio": "8499/236",
+        "perturbation_beta": "8499/1888",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "outer_edge",
+          2,
+          2
+        ],
+        "parent": 9,
+        "dominance_ratio": "1245/2",
+        "perturbation_beta": "1245/16",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "outer_edge",
+          2,
+          3
+        ],
+        "parent": 9,
+        "dominance_ratio": "6535/4",
+        "perturbation_beta": "6535/32",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          2,
+          3
+        ],
+        "parent": 11,
+        "dominance_ratio": "83/144",
+        "perturbation_beta": "83/3168",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          2,
+          4
+        ],
+        "parent": 11,
+        "dominance_ratio": "155/228",
+        "perturbation_beta": "155/5016",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          2,
+          5
+        ],
+        "parent": 11,
+        "dominance_ratio": "45/44",
+        "perturbation_beta": "45/968",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          2,
+          6
+        ],
+        "parent": 11,
+        "dominance_ratio": "15944/4599",
+        "perturbation_beta": "7972/50589",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          2,
+          7
+        ],
+        "parent": 11,
+        "dominance_ratio": "1074/311",
+        "perturbation_beta": "537/3421",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          2,
+          8
+        ],
+        "parent": 11,
+        "dominance_ratio": "155/33",
+        "perturbation_beta": "155/726",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          2,
+          9
+        ],
+        "parent": 11,
+        "dominance_ratio": "135/16",
+        "perturbation_beta": "135/352",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "radial_edge",
+          2,
+          0
+        ],
+        "parent": 11,
+        "dominance_ratio": "49/192",
+        "perturbation_beta": "49/4224",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "radial_edge",
+          2,
+          1
+        ],
+        "parent": 11,
+        "dominance_ratio": "49/24",
+        "perturbation_beta": "49/528",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "radial_edge",
+          2,
+          2
+        ],
+        "parent": 11,
+        "dominance_ratio": "49/4",
+        "perturbation_beta": "49/88",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "radial_edge",
+          2,
+          3
+        ],
+        "parent": 11,
+        "dominance_ratio": "167/2",
+        "perturbation_beta": "167/44",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_edge",
+          3,
+          0
+        ],
+        "parent": 12,
+        "dominance_ratio": "662373/677888",
+        "perturbation_beta": "662373/5423104",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "outer_edge",
+          3,
+          1
+        ],
+        "parent": 12,
+        "dominance_ratio": "1074713/75520",
+        "perturbation_beta": "1074713/604160",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "outer_edge",
+          3,
+          2
+        ],
+        "parent": 12,
+        "dominance_ratio": "122579/512",
+        "perturbation_beta": "122579/4096",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "outer_edge",
+          3,
+          3
+        ],
+        "parent": 12,
+        "dominance_ratio": "3224139/7168",
+        "perturbation_beta": "3224139/57344",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          3,
+          3
+        ],
+        "parent": 13,
+        "dominance_ratio": "205/297",
+        "perturbation_beta": "205/5346",
+        "sibling_count": 10
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          3,
+          5
+        ],
+        "parent": 13,
+        "dominance_ratio": "4247/6920",
+        "perturbation_beta": "4247/124560",
+        "sibling_count": 10
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          3,
+          6
+        ],
+        "parent": 13,
+        "dominance_ratio": "205/54",
+        "perturbation_beta": "205/972",
+        "sibling_count": 10
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          3,
+          7
+        ],
+        "parent": 13,
+        "dominance_ratio": "2103/800",
+        "perturbation_beta": "701/4800",
+        "sibling_count": 10
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          3,
+          9
+        ],
+        "parent": 13,
+        "dominance_ratio": "4247/864",
+        "perturbation_beta": "4247/15552",
+        "sibling_count": 10
+      },
+      {
+        "mode": [
+          "radial_edge",
+          3,
+          0
+        ],
+        "parent": 13,
+        "dominance_ratio": "4907/23552",
+        "perturbation_beta": "4907/423936",
+        "sibling_count": 10
+      },
+      {
+        "mode": [
+          "radial_edge",
+          3,
+          1
+        ],
+        "parent": 13,
+        "dominance_ratio": "61/24",
+        "perturbation_beta": "61/432",
+        "sibling_count": 10
+      },
+      {
+        "mode": [
+          "radial_edge",
+          3,
+          2
+        ],
+        "parent": 13,
+        "dominance_ratio": "61/4",
+        "perturbation_beta": "61/72",
+        "sibling_count": 10
+      },
+      {
+        "mode": [
+          "radial_edge",
+          3,
+          3
+        ],
+        "parent": 13,
+        "dominance_ratio": "189/2",
+        "perturbation_beta": "21/4",
+        "sibling_count": 10
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          3,
+          4
+        ],
+        "parent": 14,
+        "dominance_ratio": "177/376",
+        "perturbation_beta": "177/1504",
+        "sibling_count": 3
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          3,
+          8
+        ],
+        "parent": 14,
+        "dominance_ratio": "531/200",
+        "perturbation_beta": "531/800",
+        "sibling_count": 3
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          4,
+          4
+        ],
+        "parent": 15,
+        "dominance_ratio": "3209/6000",
+        "perturbation_beta": "3209/72000",
+        "sibling_count": 7
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          4,
+          7
+        ],
+        "parent": 15,
+        "dominance_ratio": "213/68",
+        "perturbation_beta": "71/272",
+        "sibling_count": 7
+      },
+      {
+        "mode": [
+          "radial_edge",
+          4,
+          0
+        ],
+        "parent": 15,
+        "dominance_ratio": "3209/24000",
+        "perturbation_beta": "3209/288000",
+        "sibling_count": 7
+      },
+      {
+        "mode": [
+          "radial_edge",
+          4,
+          1
+        ],
+        "parent": 15,
+        "dominance_ratio": "55/24",
+        "perturbation_beta": "55/288",
+        "sibling_count": 7
+      },
+      {
+        "mode": [
+          "radial_edge",
+          4,
+          2
+        ],
+        "parent": 15,
+        "dominance_ratio": "55/4",
+        "perturbation_beta": "55/48",
+        "sibling_count": 7
+      },
+      {
+        "mode": [
+          "radial_edge",
+          4,
+          3
+        ],
+        "parent": 15,
+        "dominance_ratio": "282393/4000",
+        "perturbation_beta": "94131/16000",
+        "sibling_count": 7
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          4,
+          3
+        ],
+        "parent": 16,
+        "dominance_ratio": "89/120",
+        "perturbation_beta": "89/2160",
+        "sibling_count": 10
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          4,
+          5
+        ],
+        "parent": 16,
+        "dominance_ratio": "175/132",
+        "perturbation_beta": "175/2376",
+        "sibling_count": 10
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          4,
+          6
+        ],
+        "parent": 16,
+        "dominance_ratio": "89/16",
+        "perturbation_beta": "89/288",
+        "sibling_count": 10
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          4,
+          8
+        ],
+        "parent": 16,
+        "dominance_ratio": "175/48",
+        "perturbation_beta": "175/864",
+        "sibling_count": 10
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          4,
+          9
+        ],
+        "parent": 16,
+        "dominance_ratio": "175/16",
+        "perturbation_beta": "175/288",
+        "sibling_count": 10
+      },
+      {
+        "mode": [
+          "outer_edge",
+          4,
+          0
+        ],
+        "parent": 16,
+        "dominance_ratio": "1397/864",
+        "perturbation_beta": "1397/15552",
+        "sibling_count": 10
+      },
+      {
+        "mode": [
+          "outer_edge",
+          4,
+          1
+        ],
+        "parent": 16,
+        "dominance_ratio": "6494/177",
+        "perturbation_beta": "3247/1593",
+        "sibling_count": 10
+      },
+      {
+        "mode": [
+          "outer_edge",
+          4,
+          2
+        ],
+        "parent": 16,
+        "dominance_ratio": "627",
+        "perturbation_beta": "209/6",
+        "sibling_count": 10
+      },
+      {
+        "mode": [
+          "outer_edge",
+          4,
+          3
+        ],
+        "parent": 16,
+        "dominance_ratio": "6773/4",
+        "perturbation_beta": "6773/72",
+        "sibling_count": 10
+      }
+    ],
+    "limitations": "Exact only on fixed rational 5/9 planar fans, not general meshes. Geometric basis is ill-conditioned; NO true spatial refinement, no level-independent stability, no certified regular-to-extraordinary C2 connection."
+  },
+  "fan9": {
+    "n": 9,
+    "original_positive_basis": 30,
+    "added_independent_dy_nodal_modes": 142,
+    "new_full_positive_basis_count": 172,
+    "global_full_DY_dimension": 172,
+    "exact_positive_Bernstein": true,
+    "exact_partition_unity": true,
+    "affine_precision_preserved_from_parent_sites": true,
+    "full_global_DY_rank_by_invertible_nodal_coordinate_change": 172,
+    "full_P5_reproduction_by_spline_span": true,
+    "negative_Bernstein_coefficients": 0,
+    "outer_support_at_most_sectors": 4,
+    "center_natural_star_sectors": 9,
+    "min_parent_mode_dominance_ratio": "1123/3600",
+    "min_perturbation_beta": "1123/108000",
+    "max_modes_from_any_parent": 15,
+    "sampled_column_scaled_Bernstein_condition": 23846.015063548042,
+    "sampled_numerical_rank": 172,
+    "modes": [
+      {
+        "mode": [
+          "center_vertex",
+          4
+        ],
+        "parent": 1,
+        "dominance_ratio": "143/360",
+        "perturbation_beta": "143/2880",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "center_vertex",
+          5
+        ],
+        "parent": 1,
+        "dominance_ratio": "151/270",
+        "perturbation_beta": "151/2160",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "center_vertex",
+          8
+        ],
+        "parent": 1,
+        "dominance_ratio": "61/36",
+        "perturbation_beta": "61/288",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "center_vertex",
+          9
+        ],
+        "parent": 1,
+        "dominance_ratio": "151/54",
+        "perturbation_beta": "151/432",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "center_vertex",
+          3
+        ],
+        "parent": 2,
+        "dominance_ratio": "143/270",
+        "perturbation_beta": "143/1620",
+        "sibling_count": 4
+      },
+      {
+        "mode": [
+          "center_vertex",
+          6
+        ],
+        "parent": 2,
+        "dominance_ratio": "143/54",
+        "perturbation_beta": "143/324",
+        "sibling_count": 4
+      },
+      {
+        "mode": [
+          "center_vertex",
+          7
+        ],
+        "parent": 2,
+        "dominance_ratio": "15449/8840",
+        "perturbation_beta": "15449/53040",
+        "sibling_count": 4
+      },
+      {
+        "mode": [
+          "outer_edge",
+          0,
+          0
+        ],
+        "parent": 4,
+        "dominance_ratio": "4067353/5220072",
+        "perturbation_beta": "4067353/41760576",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "outer_edge",
+          0,
+          1
+        ],
+        "parent": 4,
+        "dominance_ratio": "983/162",
+        "perturbation_beta": "983/1296",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "outer_edge",
+          0,
+          2
+        ],
+        "parent": 4,
+        "dominance_ratio": "15675/169",
+        "perturbation_beta": "15675/1352",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "outer_edge",
+          0,
+          3
+        ],
+        "parent": 4,
+        "dominance_ratio": "42920042/415233",
+        "perturbation_beta": "21460021/1660932",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          0,
+          3
+        ],
+        "parent": 5,
+        "dominance_ratio": "45/44",
+        "perturbation_beta": "45/968",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          0,
+          4
+        ],
+        "parent": 5,
+        "dominance_ratio": "2497/2088",
+        "perturbation_beta": "227/4176",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          0,
+          5
+        ],
+        "parent": 5,
+        "dominance_ratio": "7/18",
+        "perturbation_beta": "7/396",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          0,
+          6
+        ],
+        "parent": 5,
+        "dominance_ratio": "135/16",
+        "perturbation_beta": "135/352",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          0,
+          7
+        ],
+        "parent": 5,
+        "dominance_ratio": "2497/336",
+        "perturbation_beta": "227/672",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          0,
+          8
+        ],
+        "parent": 5,
+        "dominance_ratio": "18430/3549",
+        "perturbation_beta": "9215/39039",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          0,
+          9
+        ],
+        "parent": 5,
+        "dominance_ratio": "35/18",
+        "perturbation_beta": "35/396",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "radial_edge",
+          0,
+          0
+        ],
+        "parent": 5,
+        "dominance_ratio": "27645/37856",
+        "perturbation_beta": "27645/832832",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "radial_edge",
+          0,
+          1
+        ],
+        "parent": 5,
+        "dominance_ratio": "1097803/55296",
+        "perturbation_beta": "1097803/1216512",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "radial_edge",
+          0,
+          2
+        ],
+        "parent": 5,
+        "dominance_ratio": "81171/512",
+        "perturbation_beta": "81171/11264",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "radial_edge",
+          0,
+          3
+        ],
+        "parent": 5,
+        "dominance_ratio": "1399110861/1792000",
+        "perturbation_beta": "1399110861/39424000",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          1,
+          3
+        ],
+        "parent": 8,
+        "dominance_ratio": "1421/1824",
+        "perturbation_beta": "1421/54720",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          1,
+          4
+        ],
+        "parent": 8,
+        "dominance_ratio": "1421/4380",
+        "perturbation_beta": "1421/131400",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          1,
+          5
+        ],
+        "parent": 8,
+        "dominance_ratio": "1499/3402",
+        "perturbation_beta": "1499/102060",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          1,
+          6
+        ],
+        "parent": 8,
+        "dominance_ratio": "1421/260",
+        "perturbation_beta": "1421/7800",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          1,
+          7
+        ],
+        "parent": 8,
+        "dominance_ratio": "1421/988",
+        "perturbation_beta": "1421/29640",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          1,
+          8
+        ],
+        "parent": 8,
+        "dominance_ratio": "1421/1209",
+        "perturbation_beta": "1421/36270",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          1,
+          9
+        ],
+        "parent": 8,
+        "dominance_ratio": "1499/702",
+        "perturbation_beta": "1499/21060",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          1,
+          0
+        ],
+        "parent": 8,
+        "dominance_ratio": "9651469/10080000",
+        "perturbation_beta": "9651469/302400000",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          1,
+          1
+        ],
+        "parent": 8,
+        "dominance_ratio": "197467597/6552000",
+        "perturbation_beta": "197467597/196560000",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          1,
+          2
+        ],
+        "parent": 8,
+        "dominance_ratio": "9651469/39200",
+        "perturbation_beta": "9651469/1176000",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          1,
+          3
+        ],
+        "parent": 8,
+        "dominance_ratio": "7054273631/4802000",
+        "perturbation_beta": "7054273631/144060000",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          1,
+          0
+        ],
+        "parent": 8,
+        "dominance_ratio": "1253/2304",
+        "perturbation_beta": "1253/69120",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          1,
+          1
+        ],
+        "parent": 8,
+        "dominance_ratio": "179/40",
+        "perturbation_beta": "179/1200",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          1,
+          2
+        ],
+        "parent": 8,
+        "dominance_ratio": "120195/1568",
+        "perturbation_beta": "8013/3136",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          1,
+          3
+        ],
+        "parent": 8,
+        "dominance_ratio": "7010959869/84399952",
+        "perturbation_beta": "2336986623/843999520",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          2,
+          4
+        ],
+        "parent": 9,
+        "dominance_ratio": "43/92",
+        "perturbation_beta": "43/736",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          2,
+          7
+        ],
+        "parent": 9,
+        "dominance_ratio": "215/122",
+        "perturbation_beta": "215/976",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          2,
+          8
+        ],
+        "parent": 9,
+        "dominance_ratio": "2507/580",
+        "perturbation_beta": "2507/4640",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "radial_edge",
+          2,
+          3
+        ],
+        "parent": 9,
+        "dominance_ratio": "176161/252",
+        "perturbation_beta": "176161/2016",
+        "sibling_count": 5
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          2,
+          3
+        ],
+        "parent": 11,
+        "dominance_ratio": "19/42",
+        "perturbation_beta": "19/924",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          2,
+          5
+        ],
+        "parent": 11,
+        "dominance_ratio": "145/132",
+        "perturbation_beta": "145/2904",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          2,
+          6
+        ],
+        "parent": 11,
+        "dominance_ratio": "133/60",
+        "perturbation_beta": "133/1320",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          2,
+          9
+        ],
+        "parent": 11,
+        "dominance_ratio": "8009/900",
+        "perturbation_beta": "8009/19800",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "radial_edge",
+          2,
+          0
+        ],
+        "parent": 11,
+        "dominance_ratio": "2728841/3747744",
+        "perturbation_beta": "2728841/82450368",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "radial_edge",
+          2,
+          1
+        ],
+        "parent": 11,
+        "dominance_ratio": "44356933/2372760",
+        "perturbation_beta": "44356933/52200720",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "radial_edge",
+          2,
+          2
+        ],
+        "parent": 11,
+        "dominance_ratio": "5329087/33124",
+        "perturbation_beta": "5329087/728728",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_edge",
+          2,
+          0
+        ],
+        "parent": 11,
+        "dominance_ratio": "9/16",
+        "perturbation_beta": "9/352",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_edge",
+          2,
+          1
+        ],
+        "parent": 11,
+        "dominance_ratio": "9/2",
+        "perturbation_beta": "9/44",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_edge",
+          2,
+          2
+        ],
+        "parent": 11,
+        "dominance_ratio": "16357/225",
+        "perturbation_beta": "1487/450",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_edge",
+          2,
+          3
+        ],
+        "parent": 11,
+        "dominance_ratio": "610436/7875",
+        "perturbation_beta": "305218/86625",
+        "sibling_count": 12
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          3,
+          3
+        ],
+        "parent": 12,
+        "dominance_ratio": "2107/4626",
+        "perturbation_beta": "2107/27756",
+        "sibling_count": 4
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          3,
+          6
+        ],
+        "parent": 12,
+        "dominance_ratio": "2107/900",
+        "perturbation_beta": "2107/5400",
+        "sibling_count": 4
+      },
+      {
+        "mode": [
+          "radial_edge",
+          3,
+          0
+        ],
+        "parent": 12,
+        "dominance_ratio": "1278653/1873872",
+        "perturbation_beta": "1278653/11243232",
+        "sibling_count": 4
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          3,
+          4
+        ],
+        "parent": 14,
+        "dominance_ratio": "2407/4764",
+        "perturbation_beta": "2407/114336",
+        "sibling_count": 13
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          3,
+          5
+        ],
+        "parent": 14,
+        "dominance_ratio": "45/44",
+        "perturbation_beta": "15/352",
+        "sibling_count": 13
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          3,
+          7
+        ],
+        "parent": 14,
+        "dominance_ratio": "2407/1320",
+        "perturbation_beta": "2407/31680",
+        "sibling_count": 13
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          3,
+          8
+        ],
+        "parent": 14,
+        "dominance_ratio": "83/20",
+        "perturbation_beta": "83/480",
+        "sibling_count": 13
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          3,
+          9
+        ],
+        "parent": 14,
+        "dominance_ratio": "135/16",
+        "perturbation_beta": "45/128",
+        "sibling_count": 13
+      },
+      {
+        "mode": [
+          "radial_edge",
+          3,
+          1
+        ],
+        "parent": 14,
+        "dominance_ratio": "176/9",
+        "perturbation_beta": "22/27",
+        "sibling_count": 13
+      },
+      {
+        "mode": [
+          "radial_edge",
+          3,
+          2
+        ],
+        "parent": 14,
+        "dominance_ratio": "1293/8",
+        "perturbation_beta": "431/64",
+        "sibling_count": 13
+      },
+      {
+        "mode": [
+          "radial_edge",
+          3,
+          3
+        ],
+        "parent": 14,
+        "dominance_ratio": "8394765263/10549994",
+        "perturbation_beta": "8394765263/253199856",
+        "sibling_count": 13
+      },
+      {
+        "mode": [
+          "outer_edge",
+          3,
+          0
+        ],
+        "parent": 14,
+        "dominance_ratio": "225969449/333662784",
+        "perturbation_beta": "225969449/8007906816",
+        "sibling_count": 13
+      },
+      {
+        "mode": [
+          "outer_edge",
+          3,
+          1
+        ],
+        "parent": 14,
+        "dominance_ratio": "11273/1960",
+        "perturbation_beta": "11273/47040",
+        "sibling_count": 13
+      },
+      {
+        "mode": [
+          "outer_edge",
+          3,
+          2
+        ],
+        "parent": 14,
+        "dominance_ratio": "757377/8281",
+        "perturbation_beta": "252459/66248",
+        "sibling_count": 13
+      },
+      {
+        "mode": [
+          "outer_edge",
+          3,
+          3
+        ],
+        "parent": 14,
+        "dominance_ratio": "2219946245/21099988",
+        "perturbation_beta": "2219946245/506399712",
+        "sibling_count": 13
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          4,
+          3
+        ],
+        "parent": 15,
+        "dominance_ratio": "1769/1824",
+        "perturbation_beta": "1769/54720",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          4,
+          4
+        ],
+        "parent": 15,
+        "dominance_ratio": "1769/4380",
+        "perturbation_beta": "1769/131400",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          4,
+          5
+        ],
+        "parent": 15,
+        "dominance_ratio": "1691/3402",
+        "perturbation_beta": "1691/102060",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          4,
+          6
+        ],
+        "parent": 15,
+        "dominance_ratio": "1769/260",
+        "perturbation_beta": "1769/7800",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          4,
+          7
+        ],
+        "parent": 15,
+        "dominance_ratio": "1769/988",
+        "perturbation_beta": "1769/29640",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          4,
+          8
+        ],
+        "parent": 15,
+        "dominance_ratio": "1691/1170",
+        "perturbation_beta": "1691/35100",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          4,
+          9
+        ],
+        "parent": 15,
+        "dominance_ratio": "1691/702",
+        "perturbation_beta": "1691/21060",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          4,
+          0
+        ],
+        "parent": 15,
+        "dominance_ratio": "11918269/10080000",
+        "perturbation_beta": "11918269/302400000",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          4,
+          1
+        ],
+        "parent": 15,
+        "dominance_ratio": "721046791/19656000",
+        "perturbation_beta": "721046791/589680000",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          4,
+          2
+        ],
+        "parent": 15,
+        "dominance_ratio": "11918269/39200",
+        "perturbation_beta": "11918269/1176000",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          4,
+          3
+        ],
+        "parent": 15,
+        "dominance_ratio": "1671125591/960400",
+        "perturbation_beta": "1671125591/28812000",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          4,
+          0
+        ],
+        "parent": 15,
+        "dominance_ratio": "1879/3456",
+        "perturbation_beta": "1879/103680",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          4,
+          1
+        ],
+        "parent": 15,
+        "dominance_ratio": "1879/486",
+        "perturbation_beta": "1879/14580",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          4,
+          2
+        ],
+        "parent": 15,
+        "dominance_ratio": "476/9",
+        "perturbation_beta": "238/135",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          4,
+          3
+        ],
+        "parent": 15,
+        "dominance_ratio": "9355132/138411",
+        "perturbation_beta": "4677566/2076165",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          5,
+          3
+        ],
+        "parent": 18,
+        "dominance_ratio": "205/297",
+        "perturbation_beta": "41/1782",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          5,
+          4
+        ],
+        "parent": 18,
+        "dominance_ratio": "98861/111726",
+        "perturbation_beta": "98861/3351780",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          5,
+          5
+        ],
+        "parent": 18,
+        "dominance_ratio": "43/90",
+        "perturbation_beta": "43/2700",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          5,
+          6
+        ],
+        "parent": 18,
+        "dominance_ratio": "205/54",
+        "perturbation_beta": "41/324",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          5,
+          7
+        ],
+        "parent": 18,
+        "dominance_ratio": "98861/26703",
+        "perturbation_beta": "98861/801090",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          5,
+          8
+        ],
+        "parent": 18,
+        "dominance_ratio": "340321/77571",
+        "perturbation_beta": "340321/2327130",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          5,
+          9
+        ],
+        "parent": 18,
+        "dominance_ratio": "43/18",
+        "perturbation_beta": "43/540",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          5,
+          0
+        ],
+        "parent": 18,
+        "dominance_ratio": "340321/551616",
+        "perturbation_beta": "340321/16548480",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          5,
+          1
+        ],
+        "parent": 18,
+        "dominance_ratio": "3711925/355914",
+        "perturbation_beta": "742385/2135484",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          5,
+          2
+        ],
+        "parent": 18,
+        "dominance_ratio": "144899/2028",
+        "perturbation_beta": "144899/60840",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          5,
+          3
+        ],
+        "parent": 18,
+        "dominance_ratio": "1708777/6591",
+        "perturbation_beta": "1708777/197730",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          5,
+          0
+        ],
+        "parent": 18,
+        "dominance_ratio": "174256411/144052896",
+        "perturbation_beta": "174256411/4321586880",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          5,
+          1
+        ],
+        "parent": 18,
+        "dominance_ratio": "10280049593/629967780",
+        "perturbation_beta": "10280049593/18899033400",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          5,
+          2
+        ],
+        "parent": 18,
+        "dominance_ratio": "2167537/9126",
+        "perturbation_beta": "2167537/273780",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          5,
+          3
+        ],
+        "parent": 18,
+        "dominance_ratio": "10280049593/22422582",
+        "perturbation_beta": "10280049593/672677460",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          6,
+          3
+        ],
+        "parent": 22,
+        "dominance_ratio": "1123/3402",
+        "perturbation_beta": "1123/102060",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          6,
+          4
+        ],
+        "parent": 22,
+        "dominance_ratio": "1123/3600",
+        "perturbation_beta": "1123/108000",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          6,
+          5
+        ],
+        "parent": 22,
+        "dominance_ratio": "3131/3576",
+        "perturbation_beta": "3131/107280",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          6,
+          6
+        ],
+        "parent": 22,
+        "dominance_ratio": "1123/702",
+        "perturbation_beta": "1123/21060",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          6,
+          7
+        ],
+        "parent": 22,
+        "dominance_ratio": "1123/1170",
+        "perturbation_beta": "1123/35100",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          6,
+          8
+        ],
+        "parent": 22,
+        "dominance_ratio": "3131/1872",
+        "perturbation_beta": "3131/56160",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          6,
+          9
+        ],
+        "parent": 22,
+        "dominance_ratio": "3131/520",
+        "perturbation_beta": "3131/15600",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          6,
+          0
+        ],
+        "parent": 22,
+        "dominance_ratio": "801091/979776",
+        "perturbation_beta": "801091/29393280",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          6,
+          1
+        ],
+        "parent": 22,
+        "dominance_ratio": "14285897/767637",
+        "perturbation_beta": "14285897/23029110",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          6,
+          2
+        ],
+        "parent": 22,
+        "dominance_ratio": "396665/2916",
+        "perturbation_beta": "79333/17496",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          6,
+          3
+        ],
+        "parent": 22,
+        "dominance_ratio": "65702974891/91854000",
+        "perturbation_beta": "65702974891/2755620000",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          6,
+          0
+        ],
+        "parent": 22,
+        "dominance_ratio": "557/1152",
+        "perturbation_beta": "557/34560",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          6,
+          1
+        ],
+        "parent": 22,
+        "dominance_ratio": "557/162",
+        "perturbation_beta": "557/4860",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          6,
+          2
+        ],
+        "parent": 22,
+        "dominance_ratio": "1763/36",
+        "perturbation_beta": "1763/1080",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          6,
+          3
+        ],
+        "parent": 22,
+        "dominance_ratio": "24920716/415233",
+        "perturbation_beta": "12460358/6228495",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          7,
+          3
+        ],
+        "parent": 25,
+        "dominance_ratio": "211/450",
+        "perturbation_beta": "211/13500",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          7,
+          4
+        ],
+        "parent": 25,
+        "dominance_ratio": "2437/2088",
+        "perturbation_beta": "2437/62640",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          7,
+          5
+        ],
+        "parent": 25,
+        "dominance_ratio": "155/132",
+        "perturbation_beta": "31/792",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          7,
+          6
+        ],
+        "parent": 25,
+        "dominance_ratio": "211/90",
+        "perturbation_beta": "211/2700",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          7,
+          7
+        ],
+        "parent": 25,
+        "dominance_ratio": "25009/4896",
+        "perturbation_beta": "25009/146880",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          7,
+          8
+        ],
+        "parent": 25,
+        "dominance_ratio": "155/24",
+        "perturbation_beta": "31/144",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          7,
+          9
+        ],
+        "parent": 25,
+        "dominance_ratio": "155/16",
+        "perturbation_beta": "31/96",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          7,
+          0
+        ],
+        "parent": 25,
+        "dominance_ratio": "25009/34816",
+        "perturbation_beta": "25009/1044480",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          7,
+          1
+        ],
+        "parent": 25,
+        "dominance_ratio": "112435/6144",
+        "perturbation_beta": "22487/36864",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          7,
+          2
+        ],
+        "parent": 25,
+        "dominance_ratio": "75027/512",
+        "perturbation_beta": "25009/5120",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          7,
+          3
+        ],
+        "parent": 25,
+        "dominance_ratio": "189266571/256000",
+        "perturbation_beta": "63088857/2560000",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          7,
+          0
+        ],
+        "parent": 25,
+        "dominance_ratio": "276923/387072",
+        "perturbation_beta": "276923/11612160",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          7,
+          1
+        ],
+        "parent": 25,
+        "dominance_ratio": "276923/38880",
+        "perturbation_beta": "276923/1166400",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          7,
+          2
+        ],
+        "parent": 25,
+        "dominance_ratio": "173887/1536",
+        "perturbation_beta": "173887/46080",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          7,
+          3
+        ],
+        "parent": 25,
+        "dominance_ratio": "58421887/387072",
+        "perturbation_beta": "58421887/11612160",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          8,
+          3
+        ],
+        "parent": 28,
+        "dominance_ratio": "43007/53352",
+        "perturbation_beta": "43007/1600560",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          8,
+          4
+        ],
+        "parent": 28,
+        "dominance_ratio": "61/112",
+        "perturbation_beta": "61/3360",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          8,
+          5
+        ],
+        "parent": 28,
+        "dominance_ratio": "353/376",
+        "perturbation_beta": "353/11280",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          8,
+          6
+        ],
+        "parent": 28,
+        "dominance_ratio": "43007/7632",
+        "perturbation_beta": "43007/228960",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          8,
+          7
+        ],
+        "parent": 28,
+        "dominance_ratio": "305/128",
+        "perturbation_beta": "61/768",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          8,
+          8
+        ],
+        "parent": 28,
+        "dominance_ratio": "353/128",
+        "perturbation_beta": "353/3840",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_vertex",
+          8,
+          9
+        ],
+        "parent": 28,
+        "dominance_ratio": "1059/160",
+        "perturbation_beta": "353/1600",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          8,
+          0
+        ],
+        "parent": 28,
+        "dominance_ratio": "43007/62208",
+        "perturbation_beta": "43007/1866240",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          8,
+          1
+        ],
+        "parent": 28,
+        "dominance_ratio": "1675679/104976",
+        "perturbation_beta": "1675679/3149280",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          8,
+          2
+        ],
+        "parent": 28,
+        "dominance_ratio": "40769/324",
+        "perturbation_beta": "40769/9720",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "radial_edge",
+          8,
+          3
+        ],
+        "parent": 28,
+        "dominance_ratio": "67446643/121500",
+        "perturbation_beta": "67446643/3645000",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          8,
+          0
+        ],
+        "parent": 28,
+        "dominance_ratio": "1096027/1325808",
+        "perturbation_beta": "1096027/39774240",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          8,
+          1
+        ],
+        "parent": 28,
+        "dominance_ratio": "1096027/131220",
+        "perturbation_beta": "1096027/3936600",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          8,
+          2
+        ],
+        "parent": 28,
+        "dominance_ratio": "80801/648",
+        "perturbation_beta": "80801/19440",
+        "sibling_count": 16
+      },
+      {
+        "mode": [
+          "outer_edge",
+          8,
+          3
+        ],
+        "parent": 28,
+        "dominance_ratio": "205229821/1161216",
+        "perturbation_beta": "205229821/34836480",
+        "sibling_count": 16
+      }
+    ],
+    "limitations": "Exact only on fixed rational 5/9 planar fans, not general meshes. Geometric basis is ill-conditioned; NO true spatial refinement, no level-independent stability, no certified regular-to-extraordinary C2 connection."
+  }
+}

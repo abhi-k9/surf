@@ -1,0 +1,50 @@
+{
+  "fan5": {
+    "valence": 5,
+    "coarse_controls": 18,
+    "enriched_controls": 51,
+    "positive": true,
+    "exact_fixed_mesh_transfer": true,
+    "exact_P1_from_parent_copy": true,
+    "support_max_outer_sectors": 4,
+    "center_support_sectors": 5,
+    "edge_support_sectors": 2,
+    "center_hessian_modes": 3,
+    "outer_hessian_modes": 15,
+    "radial_edge_curvature_modes": 15,
+    "minimum_outer_edge_scale": "10123/25600",
+    "minimum_hessian_scale": "7/48",
+    "column_scaled_bernstein_condition": 153.24234537848602,
+    "quadratic_relative_lstsq_residuals": {
+      "x^2y^0": 0.03915291030670454,
+      "x^1y^1": 0.05048146880555118,
+      "x^0y^2": 0.030840964216807838
+    },
+    "quadratic_reproduction_not_certified": true,
+    "geometric_completeness": "Not a full P2/P5 positive basis; this test only adds Hessian degrees of freedom without the full independent edge/vertex jet set."
+  },
+  "fan9": {
+    "valence": 9,
+    "coarse_controls": 30,
+    "enriched_controls": 87,
+    "positive": true,
+    "exact_fixed_mesh_transfer": true,
+    "exact_P1_from_parent_copy": true,
+    "support_max_outer_sectors": 4,
+    "center_support_sectors": 9,
+    "edge_support_sectors": 2,
+    "center_hessian_modes": 3,
+    "outer_hessian_modes": 27,
+    "radial_edge_curvature_modes": 27,
+    "minimum_outer_edge_scale": "1/2",
+    "minimum_hessian_scale": "647/6804",
+    "column_scaled_bernstein_condition": 207.00242352410172,
+    "quadratic_relative_lstsq_residuals": {
+      "x^2y^0": 0.02133129968402461,
+      "x^1y^1": 0.04197109175483479,
+      "x^0y^2": 0.020804224301743727
+    },
+    "quadratic_reproduction_not_certified": true,
+    "geometric_completeness": "Not a full P2/P5 positive basis; this test only adds Hessian degrees of freedom without the full independent edge/vertex jet set."
+  }
+}

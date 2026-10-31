@@ -1,0 +1,63 @@
+{
+  "checksum": 22440.09378041141,
+  "evaluations": [
+    {
+      "count": 1000,
+      "max_ms": 7.245153,
+      "median_ms": 6.89148,
+      "min_ms": 6.747056
+    },
+    {
+      "count": 10000,
+      "max_ms": 76.493156,
+      "median_ms": 75.874791,
+      "min_ms": 75.059674
+    },
+    {
+      "count": 100000,
+      "max_ms": 763.274145,
+      "median_ms": 750.049075,
+      "min_ms": 743.689202
+    }
+  ],
+  "tessellation": [
+    {
+      "buffer_bytes": 251392,
+      "ms": 6.922005,
+      "resolution": 4,
+      "triangles": 1728,
+      "vertices": 901
+    },
+    {
+      "buffer_bytes": 986368,
+      "ms": 25.153569,
+      "resolution": 8,
+      "triangles": 6912,
+      "vertices": 3529
+    },
+    {
+      "buffer_bytes": 3907840,
+      "ms": 102.753193,
+      "resolution": 16,
+      "triangles": 27648,
+      "vertices": 13969
+    },
+    {
+      "buffer_bytes": 15556864,
+      "ms": 415.252277,
+      "resolution": 32,
+      "triangles": 110592,
+      "vertices": 55585
+    }
+  ],
+  "valence": 9,
+  "wall_seconds": 3.079787120997935,
+  "hardware": {
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "build": "Release; CMake GCC -O3 -DNDEBUG, no fast-math",
+    "compiler": "c++ (Debian 14.2.0-19) 14.2.0"
+  },
+  "peak_child_rss_kib": 30436
+}

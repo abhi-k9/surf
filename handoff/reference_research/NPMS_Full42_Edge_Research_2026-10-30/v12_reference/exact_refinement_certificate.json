@@ -1,0 +1,110 @@
+{
+  "construction": "fixed two-macro Powell-Sabin-12 C2/C3 restricted positive basis, affine precise, edge controls",
+  "edge_positive_basis_size": 7,
+  "coarse_basis_size": 7,
+  "fine_basis_size": 10,
+  "edge_mode_scale": "3/8",
+  "corrected_affine_min_bernstein": "91423/4492800",
+  "positive_edge_bases_min_bernstein": "0",
+  "fine_exact_rank": 10,
+  "coarse_exact_rank": 7,
+  "fine_partition_of_unity": true,
+  "fine_affine_precision": true,
+  "coarse_to_fine_transfer_10x7": [
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1"
+    ]
+  ],
+  "exact_positive_transfer": true,
+  "fine_sample_collocation_condition": 100.2120897524671,
+  "fixed_patch_fine_coefficient_stability_bound": "693108689842777276268670912602605497000/64371222475837054895524117197562168606309",
+  "bound_float": 0.010767368758655292,
+  "scope": "One exact basis enrichment on a fixed 2-macro mesh. NOT geometric mesh refinement or a multilevel uniform-stability theorem."
+}

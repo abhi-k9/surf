@@ -1,0 +1,10 @@
+{
+  "compact_two_macro_dim": 8,
+  "positive_kernel_dim": 7,
+  "first_normal_jet_index": 2,
+  "unit_first_normal_signed_mode_coefficient": "-4/243",
+  "exact_direct_sum": true,
+  "signed_mode_min_bernstein": "-1/30",
+  "signed_mode_max_bernstein": "1219/1080",
+  "all_positive_modes_first_normal_zero": true
+}
